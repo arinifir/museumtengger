@@ -1,5 +1,5 @@
 <?php 
-$base_url ="http://localhost/museumtengger/";
+$base_url ="http://museumtengger.xyz/";
 if(isset($_FILES['upload']['name']))
 {
  $file = $_FILES['upload']['tmp_name'];
