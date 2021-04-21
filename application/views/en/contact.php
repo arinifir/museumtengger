@@ -27,7 +27,7 @@
                 <p><span>Email:</span> <a href="mailto:museumtengger@gmail.com">museumtengger@gmail.com</a></p>
             </div>
             <div class="col-md-3">
-                <p><span>Website:</span> <a href="<?= base_url('Home'); ?>">museumtengger.com</a></p>
+                <p><span>Website:</span> <a href="<?= base_url('Home'); ?>">museumtengger.xyz</a></p>
             </div>
         </div>
         <div class="row block-9">
