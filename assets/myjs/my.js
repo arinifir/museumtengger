@@ -1,4 +1,4 @@
-const base_url = "http://localhost/museumtengger/";
+const base_url = "http://museumtengger.xyz/";
 $(".btnlogin").on("click", function () {
     const username = $('.username').val();
     const password = $('.password').val();
