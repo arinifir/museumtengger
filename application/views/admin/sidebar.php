@@ -4,7 +4,7 @@
 		<div class="sidebar-content">
 			<div class="user">
 				<div class="avatar-sm float-left mr-2">
-					<img src="<?= base_url('assets/admin/') ?>assets/img/profile.png" alt="..." class="avatar-img rounded-circle">
+					<img src="<?= base_url('assets/images/') ?>profile.png" alt="..." class="avatar-img rounded-circle">
 				</div>
 				<div class="info">
 					<a data-toggle="collapse" href="#collapseExample" aria-expanded="true">
