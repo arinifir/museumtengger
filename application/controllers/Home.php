@@ -13,7 +13,7 @@ class Home extends CI_Controller
         $this->load->helper('auth_helper');
         $this->load->helper('timestamp_helper');
         $this->load->library('user_agent');
-        $this->load->library('configemail');
+        $this->load->library('ConfigEmail', 'configemail');
         // $this->load->library('primslib');
     }
     public function index()

@@ -12,7 +12,7 @@ class Admin extends CI_Controller
         $this->load->helper('auth_helper');
         $this->load->helper('timestamp_helper');
         $this->load->library('user_agent');
-        $this->load->library('configemail');
+        $this->load->library('ConfigEmail', 'configemail');
         // $this->load->library('primslib');
         admin_logged_in();
     }
@@ -22,7 +22,7 @@ class Admin extends CI_Controller
         $data['subs'] = $this->db->get('tb_subscribe')->num_rows();
         $data['collect'] = $this->db->get('tb_koleksi')->num_rows();
         $data['info'] = $this->db->get('tb_artikel')->num_rows();
-        $data['admin'] = $this->db->get_where('tb_user', ['level_user'=> 1])->num_rows();
+        $data['admin'] = $this->db->get_where('tb_user', ['level_user' => 1])->num_rows();
         $this->load->view('admin/header', $data);
         $this->load->view('admin/topbar');
         $this->load->view('admin/sidebar');
@@ -737,13 +737,13 @@ class Admin extends CI_Controller
         $id = $this->input->post('id');
         $pass1 = $this->input->post('pass1');
         $pass2 = $this->input->post('pass2');
-        if($pass1 == $pass2){
+        if ($pass1 == $pass2) {
             $data = ['password' => md5($pass1)];
             $where = ['id_user' => $id];
             $this->admin->editData('tb_user', $data, $where);
             $this->session->set_flashdata('berhasil', 'Successfully changed the data.');
             redirect('Auth/logout');
-        }else{
+        } else {
             $this->session->set_flashdata('gagal', 'Confirm Password does not matched!');
             redirect($this->agent->referrer());
         }
