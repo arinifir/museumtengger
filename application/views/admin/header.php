@@ -23,7 +23,7 @@
 			}
 		});
 	</script>
-	<script src="http://cdn.ckeditor.com/4.6.2/standard-all/ckeditor.js"></script>
+	<script src="https://cdn.ckeditor.com/4.6.2/standard-all/ckeditor.js"></script>
 
 	<!-- CSS Files -->
 	<link rel="stylesheet" href="<?= base_url('assets/admin'); ?>/assets/css/bootstrap.min.css">

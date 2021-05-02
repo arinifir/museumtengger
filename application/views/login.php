@@ -31,7 +31,7 @@
         </div>
     </div>
 </body>
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
 <script src="<?= base_url('assets/myjs/') ?>my.js"></script>
 </html>
