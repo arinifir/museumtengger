@@ -23,7 +23,7 @@
         <div class="ftco-footer-widget mb-4">
           <h2 class="ftco-heading-2">About Website</h2>
           <p>Website developed by: <a href="https://instagram.com/arinifir_?igshid=6wmkpj9ukyp" style="color: #177dff">Arini Firdausiyah</a><br>
-Content created by: <a href="https://instagram.com/dheasiiw99?igshid=m8msxf73izu0" style="color: #177dff">Dhea Siwy Wardhani</a><br>Museum Tengger was built in 2017 by Department of Youth, Sport, Tourism and Culture Probolinggo</p>
+Content created by: <a href="https://instagram.com/dheasiiw99?igshid=m8msxf73izu0" style="color: #177dff">Dhea Siwy Wardhani</a><br>Museum Tengger was built in 2017 by Department of Youth, Sport, Tourism and Culture Probolinggo<br><br>Opening hours: Every day 08.00 AM-04.00 PM</p>
 
         </div>
       </div>
@@ -32,9 +32,10 @@ Content created by: <a href="https://instagram.com/dheasiiw99?igshid=m8msxf73izu
           <h2 class="ftco-heading-2">Contact</h2>
           <div class="block-23 mb-3">
             <ul>
-              <li><span class="icon icon-map-marker"></span><span class="text">Jln. Raya Bromo, Wanasari, Ngadisari, Sukapura, Probolinggo, Jawa Timur 67254</span></li>
-              <li><a href="tel://+6282140101707"><span class="icon icon-phone"></span><span class="text">+62 8214 0101 707</span></a></li>
-              <li><a href="mailto:museumtengger@gmail.com"><span class="icon icon-envelope"></span><span class="text">museumtengger@gmail.com</span></a></li>
+              <li><span class="icon icon-map-marker"></span><a href="https://maps.app.goo.gl/PMfQpd4kpuDzQyh49"><span class="text">Jln. Raya Bromo, Wanasari, Ngadisari, Sukapura, Probolinggo, Jawa Timur 67254</span></a></li>
+              <li><span class="icon icon-phone"></span><a href="tel://+6282140101707"><span class="text">+62 8214 0101 707</span></a></li>
+              <li><span class="icon icon-envelope"></span><a href="mailto:museumtengger@gmail.com"><span class="text">museumtengger@gmail.com</span></a></li>
+              <li><span class="icon icon-link"></span><a href="https://museumtengger.xyz/"><span class="text">museumtengger.xyz</span></a></li>
             </ul>
           </div>
         </div>

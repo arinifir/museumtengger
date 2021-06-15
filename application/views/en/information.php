@@ -10,7 +10,21 @@
     </div>
 </section>
 
-<section class="ftco-section bg-light">
+<section class="ftco-section ftco-no-pt ftco-no-pb">
+    <div class="container">
+        <div class="row d-flex">
+            <div class="col-md-12 px-5 py-5">
+                <div class="row justify-content-start pt-3 pb-3" align="center">
+                    <div class="col-md-12 heading-section ftco-animate">
+                        <p>Here you can see information about tourist attraction and lodge nearby Museum Tengger.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="ftco-section ftco-no-pt ftco-no-pb bg-light">
     <div class="container">
         <div class="row d-flex">
             <?php foreach ($artikel as $art) { ?>
@@ -19,15 +33,6 @@
                         <a href="<?= base_url('Home/detail_information/'.$art['linkartikel']); ?>" class="block-20" style="background-image: url('<?= base_url() ?>assets/images/artikel/<?= $art['gambar_artikel']?>');">
                         </a>
                         <div class="text p-4 float-right d-block">
-                            <div class="topper d-flex align-items-center">
-                                <div class="one py-2 pl-3 pr-1 align-self-stretch">
-                                    <span class="day"><?= date("d", $art['waktu_artikel']) ?></span>
-                                </div>
-                                <div class="two pl-2 pr-3 py-2 align-self-stretch">
-                                    <span class="yr"><?= date("Y", $art['waktu_artikel']) ?></span>
-                                    <span class="mos"><?= date("F", $art['waktu_artikel']) ?></span>
-                                </div>
-                            </div>
                             <h3 class="heading mt-2"><a href="<?= base_url('Home/detail_information/'.$art['linkartikel']); ?>"><?= $art['title_artikel']?></a></h3>
                         </div>
                     </div>

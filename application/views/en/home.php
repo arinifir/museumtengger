@@ -16,7 +16,7 @@
                 <div class="row justify-content-start pt-3 pb-3" align="center">
                     <div class="col-md-12 heading-section ftco-animate">
                         <span class="subheading">Hello!</span>
-                        <p>Welcome to Museum Tengger website! <br> Here you can see collections of Museum Tengger. This website provides information about tourist attraction and lodge nearby the museum. You don't need to worry if you want to visit Museum Tengger, because there is a map to guide you to the museum.</p>
+                        <p>Welcome to Museum Tengger website! <br> Here you can see collections of Museum Tengger. This website provides information about tourist attraction and lodge nearby the museum. You don't need to worry if you want to visit Museum Tengger, because there is a <a href="<?= base_url('Home/contact#mapmuseumtengger'); ?>">map</a> to guide you to the museum.</p>
                     </div>
                 </div>
             </div>
@@ -61,15 +61,6 @@
                         <a href="<?= base_url('Home/detail_information/' . $art['linkartikel']); ?>" class="block-20" style="background-image: url('<?= base_url() ?>assets/images/artikel/<?= $art['gambar_artikel'] ?>');">
                         </a>
                         <div class="text p-4 float-right d-block">
-                            <div class="topper d-flex align-items-center">
-                                <div class="one py-2 pl-3 pr-1 align-self-stretch">
-                                    <span class="day"><?= date("d", $art['waktu_artikel']) ?></span>
-                                </div>
-                                <div class="two pl-2 pr-3 py-2 align-self-stretch">
-                                    <span class="yr"><?= date("Y", $art['waktu_artikel']) ?></span>
-                                    <span class="mos"><?= date("F", $art['waktu_artikel']) ?></span>
-                                </div>
-                            </div>
                             <h3 class="heading mt-2"><a href="<?= base_url('Home/detail_information/' . $art['linkartikel']); ?>"><?= $art['title_artikel'] ?></a></h3>
                         </div>
                     </div>

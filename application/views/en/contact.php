@@ -17,17 +17,14 @@
                 <h2 class="h3">Contact Information</h2>
             </div>
             <div class="w-100"></div>
-            <div class="col-md-3">
-                <p><span>Address:</span> Wanasari, Ngadisari, Sukapura, Probolinggo, Jawa Timur 67254</p>
+            <div class="col-md-4">
+                <p><span>Address:</span> <a href="https://maps.app.goo.gl/PMfQpd4kpuDzQyh49">Wanasari, Ngadisari, Sukapura, Probolinggo, Jawa Timur 67254</a></p>
             </div>
-            <div class="col-md-3">
+            <div class="col-md-4">
                 <p><span>Phone:</span> <a href="tel://+6282140101707">+62 8214 0101 707</a></p>
             </div>
-            <div class="col-md-3">
+            <div class="col-md-4">
                 <p><span>Email:</span> <a href="mailto:museumtengger@gmail.com">museumtengger@gmail.com</a></p>
-            </div>
-            <div class="col-md-3">
-                <p><span>Website:</span> <a href="<?= base_url('Home'); ?>">museumtengger.xyz</a></p>
             </div>
         </div>
         <div class="row block-9">
@@ -52,7 +49,7 @@
 
             </div>
 
-            <div class="col-lg-6 d-flex">
+            <div class="col-lg-6 d-flex" id="mapmuseumtengger">
                 <iframe width="600" style="border:0" loading="lazy" allowfullscreen src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJmYH_ZNA31i0R0Xn1ar76MzM&key=AIzaSyCTlDEbAba-k-6TzBAVqFQAI5NxVwo3YDM">
                 </iframe>
                 <!-- <div id="map" class="bg-white"></div> -->

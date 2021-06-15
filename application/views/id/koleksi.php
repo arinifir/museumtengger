@@ -10,7 +10,21 @@
     </div>
 </section>
 
-<section class="ftco-section">
+<section class="ftco-section ftco-no-pt ftco-no-pb">
+    <div class="container">
+        <div class="row d-flex">
+            <div class="col-md-12 px-5 py-5">
+                <div class="row justify-content-start pt-3 pb-3" align="center">
+                    <div class="col-md-12 heading-section ftco-animate">
+                        <p>Di sini Anda bisa melihat koleksi yang ada di Museum Tengger.<br>Ada 20 koleksi yang dipajang di Museum Tengger. Koleksi tersebut berupa baju tradisional, patung, alat musik, dll. Anda bisa mengklik gambar-gambar di bawah dan akan muncul deskripsi tentang koleksi Museum Tengger.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="ftco-section ftco-no-pt ftco-no-pb">
     <div class="container">
         <div class="row">
             <?php foreach ($collect as $co) { ?>

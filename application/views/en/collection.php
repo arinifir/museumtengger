@@ -10,7 +10,21 @@
     </div>
 </section>
 
-<section class="ftco-section">
+<section class="ftco-section ftco-no-pt ftco-no-pb">
+    <div class="container">
+        <div class="row d-flex">
+            <div class="col-md-12 px-5 py-5">
+                <div class="row justify-content-start pt-3 pb-3" align="center">
+                    <div class="col-md-12 heading-section ftco-animate">
+                        <p>Here you can see collections of Museum Tengger.<br>There are 20 collections being displayed at the museum. Those collections are in the form of traditional clothes, statue, music instrumental, etc. You can click each pictures below and it will show you description about the collection.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="ftco-section ftco-no-pt ftco-no-pb">
     <div class="container">
         <div class="row">
             <?php foreach ($collect as $co) { ?>
