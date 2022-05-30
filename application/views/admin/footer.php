@@ -6,7 +6,7 @@
 <!-- jQuery UI -->
 <script src="<?= base_url('assets/admin'); ?>/assets/js/plugin/jquery-ui-1.12.1.custom/jquery-ui.min.js"></script>
 <script src="<?= base_url('assets/admin'); ?>/assets/js/plugin/jquery-ui-touch-punch/jquery.ui.touch-punch.min.js"></script>
- 
+
 <!-- jQuery Scrollbar -->
 <script src="<?= base_url('assets/admin'); ?>/assets/js/plugin/jquery-scrollbar/jquery.scrollbar.min.js"></script>
 
